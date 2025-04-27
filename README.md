@@ -22,6 +22,10 @@ This is a Python script to easily interact with various ecosystems on the Monad 
 
 - **Curvance** — Claim Faucet, Deposit USDC, Swap, Lock CVE
 
+- **Magma Stakes** — Deposit, Withdraw
+
+**You can also [click here](http://www.zerox.pro/data/tasks.json) to see all tasks.**
+
 ---
 
 ### ⚙️ Requirements
