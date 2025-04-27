@@ -33,7 +33,7 @@ This is a Python script to easily interact with various ecosystems on the Monad 
 ### 🛠️ Installation
 - **Install the required Python packages:**
 ```bash
-pip install web3==5.30.0 prompt_toolkit mnemonic
+pip install web3==5.30.0 prompt_toolkit
 ```
 
 ---
