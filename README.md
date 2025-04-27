@@ -55,7 +55,10 @@ Select and check all ecosystems you want to operate on, then click **Done**.
 ```bash
 python3.10 monad.py intervalFrom,intervalTo
 ```
-Example: ```python3.10 monad.py 10,15```
+Example: 
+```bash
+python3.10 monad.py 10,15
+```
 
 Select the wallets you want to use.
 
