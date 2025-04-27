@@ -67,7 +67,7 @@ OR
 To run the script for a specific wallet line:
 
 ```bash
-python3.10 monad.py intervalFrom intervalTo wallet_line
+python3.10 monad.py intervalFrom,intervalTo wallet_line
 ```
 Example: 
 ```bash
