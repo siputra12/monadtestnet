@@ -78,7 +78,7 @@ Example:
 python3.10 monad.py 10,15 1
 ```
 
-This will run only for the wallet on line 5.
+This will run only for the wallet on line 1.
 
 ### 📌 Notes
 Make sure your wallets are funded with testnet tokens.
