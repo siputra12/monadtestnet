@@ -65,11 +65,11 @@ def shuffle_datas(od):
     return datas
 
 def get_logs(fname):
-    with open(f"{l_path}/{fname}.json", 'r') as f:
+    with open(os.path.join(l_path, f"{fname}.json"), 'r') as f:
         return json.load(f)
 
 def get_data(fnames):
-    fname = f"{d_path}/{fnames}.json"
+    fname = os.path.join(d_path, f"{fname}.json")
     if os.path.isfile(fname):
         with open(fname, 'r') as f:
             return json.load(f)
@@ -77,11 +77,11 @@ def get_data(fnames):
         return requests.get(f"http://www.zerox.pro/data/{fnames}.json").json()
 
 def input_logs(fname, jdata):
-    with open(f"{l_path}/{fname}.json", 'w') as f:
+    with open(os.path.join(l_path, f"{fname}.json"), 'w') as f:
         json.dump(jdata, f, indent=4)
 
 def input_data(fname, jdata):
-    with open(f"{d_path}/{fname}.json", 'w') as f:
+    with open(os.path.join(d_path, f"{fname}.json"), 'w') as f:
         json.dump(jdata, f, indent=4)
 if len(sys.argv) < 2:
     os._exit(1)
@@ -545,22 +545,3 @@ print("💸 MON Used For All Tx : " + str(fu))
 print("💰 Current Balance     : " + new_b)
 print("==================================")
 delete_all_logs()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
