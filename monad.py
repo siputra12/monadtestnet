@@ -68,8 +68,8 @@ def get_logs(fname):
     with open(os.path.join(l_path, f"{fname}.json"), 'r') as f:
         return json.load(f)
 
-def get_data(fname):
-    fname = os.path.join(d_path, f"{fname}.json")
+def get_data(fnames):
+    fname = os.path.join(d_path, f"{fnames}.json")
     if os.path.isfile(fname):
         with open(fname, 'r') as f:
             return json.load(f)
